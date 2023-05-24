@@ -1,0 +1,81 @@
+<html>
+
+<head>
+
+	<title> Language Learning </title>
+
+	<style type="text/css">	
+		
+		body
+		{
+			background-image:url("5.jpg");
+			background-repeat:no-repeat;
+			background-size:cover;
+			text-align:center;
+		}
+		
+		.entire
+		{
+			position:relative;
+			top:300px;
+			left:700px;
+			width:200px;
+		}
+		
+		.image
+		{
+			height:150px;
+			width:180px;
+			opacity:1;
+			transition: 0.5s ease;
+		}
+		
+		.overlay
+		{
+			opacity:0;
+			transition:0.5s ease;
+		}
+				
+		.entire:hover .overlay
+		{
+			opacity:1;
+			tranistion:0.5s ease;
+		}
+		
+		.entire:hover .image
+		{
+			opacity:0;
+			transition:0.5s ease;
+		}
+		
+		.text
+		{
+			font-size:40px;
+			font-style:arial;
+			color:white;
+			position:relative;
+			top:-100px;
+			left:0px;
+		}
+	
+	</style>
+
+</head>
+
+<body>
+
+	<form>
+		<div style="position:relative;top:270px;left:0px;">
+			<h1 style="font-size:400%;"><strong>WELCOME</strong></h1>
+		</div>
+			<div class="entire">
+				<a href=""><img src="youtube-play.png" class="image"></a>
+				<div class="overlay">
+					<div class="text">PLAY</div>
+				</div>
+			</div>
+	</form>
+
+</body>
+
+</html>
